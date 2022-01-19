@@ -56,3 +56,26 @@ Then start the application by executing the run file
 set FLASK_APP=main
 flask run
 ```
+
+If you choose to start on a new database, delete the *migrations* directory and the *database.db* file then on your terminal ( make sure you're in the correct working directory) then run;
+
+### 1. Create a migration repository
+
+`flask db init`
+
+> Creates a new migrations folder inside your cwd.
+
+### 2. Generate an initial migration
+
+`flask db migrate`
+
+> Creates a database with the required table.
+
+### 3. Apply the migration to the database
+
+`flask db upgrade`
+
+Then, whenever the database models change, run the migrate and upgrade commands again.
+
+
+
