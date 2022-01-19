@@ -1,4 +1,4 @@
-## Installation
+## Installation :rocket:
           
 Navigate to your directory of choice the proceed as follows;<br>
           
@@ -40,7 +40,7 @@ Applies for windows/macOS/Linux
 
 ```pip install -r requirements.txt```
 
-### 4. Run the application 
+### 4. Run the application :fire:
 
 > **For linux and macOS**
 Make the run file executable by running the code
@@ -57,7 +57,7 @@ set FLASK_APP=main
 flask run
 ```
 
-If you choose to start on a new database, delete the *migrations* directory and the *database.db* file then on your terminal ( make sure you're in the correct working directory) then run;
+:pushpin: If you choose to start on a new database, delete the *migrations* directory and the *database.db* file then on your terminal ( make sure you're in the correct working directory) then run;
 
 ### 1. Create a migration repository
 
@@ -75,7 +75,7 @@ If you choose to start on a new database, delete the *migrations* directory and 
 
 `flask db upgrade`
 
-Then, whenever the database models change, run the migrate and upgrade commands again.
+Then, whenever the database models change, run the migrate and upgrade commands again. :relaxed:
 
 
 
